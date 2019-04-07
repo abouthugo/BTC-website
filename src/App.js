@@ -1,26 +1,34 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import Hero from './components/Hero'
+import Layout from './components/Layout'
+import Container from './components/Container'
+import Button from './components/Button'
+import Nav from './components/Nav';
+import Alert from './components/Alert';
+import BuyBitcoin from './components/BuyBitcoin';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Hero>
+        <Layout>
+        <Nav />
+          <Container>
+            <div className="col-1">
+              <Alert>Catch mouse and gave it as a present chew the plant but scratch</Alert>
+              <div>
+              <h1 class="title">Buy Bitcoin with Credit Card</h1>
+              <p class="content">
+                Catch mouse and gave it as a present chew the plant but scratch
+                me there, elevator butt. Always ensure to lay down in <br/>
+                such a manner that tail can lightly brush.
+              </p>  
+              </div>
+              <Button>CREATE ACCOUNT</Button>
+            </div>
+            <BuyBitcoin />
+          </Container>
+        </Layout>
+      </Hero>
     );
   }
 }
