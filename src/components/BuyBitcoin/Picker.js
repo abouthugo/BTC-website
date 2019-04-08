@@ -22,6 +22,7 @@ const Tick = styled.div`
 `
 const Wrapper = styled.div`
   margin: 12px auto;
+  margin-bottom: 40px;
   display: flex;
   justify-content: space-between;
 `

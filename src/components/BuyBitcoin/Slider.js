@@ -4,8 +4,8 @@ import styled from 'styled-components'
 
 const Input = styled.input`
   -webkit-appearance: none;
-  border-radius: 5px;
-  height: 10px;
+  border-radius: 6.5px;
+  height: 13px;
   width: 100%;
   margin: 0 auto;
   background-color: #E1E1E1;
