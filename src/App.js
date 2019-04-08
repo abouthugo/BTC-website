@@ -6,11 +6,13 @@ import Button from './components/Button'
 import Nav from './components/Nav';
 import Alert from './components/Alert';
 import BuyBitcoin from './components/BuyBitcoin';
+import Features from './components/Features';
 class App extends Component {
   render() {
     return (
+      <>
       <Hero>
-        <Layout>
+        <Layout full>
         <Nav />
           <Container>
             <div className="col-1">
@@ -29,6 +31,9 @@ class App extends Component {
           </Container>
         </Layout>
       </Hero>
+      <Features/>
+      </>
+
     );
   }
 }
