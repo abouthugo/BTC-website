@@ -29,9 +29,11 @@ const SelectBoxArrow = styled.div`
   }
 `;
 const ItemGroup = styled.div`
-  display: ${props => props.show ? "block": "none"};
+  display: block;
+  transform: ${props => props.show ? "scaleY(1)": "scaleY(0)"};
   position: absolute;
   width: 6.4em;
+  transition: transform 0.2s;
 `;
 
 const Item = styled.div`

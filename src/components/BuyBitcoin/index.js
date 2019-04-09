@@ -7,7 +7,7 @@ import CurrencyCard from './CurrencyCard';
 
 const values = [0.01, 0.15, 0.25, 0.35, 0.45, 0.60, 0.80, 0.93, 1.00, 1.15, 1.15];
 const Card = styled.div`
-  width: 90%;
+  width: 80%;
   background: white;
   justify-self: flex-end;
   border-radius: 4px;
