@@ -8,6 +8,8 @@ import Alert from './components/Alert';
 import BuyBitcoin from './components/BuyBitcoin';
 import Features from './components/Features';
 import Testimonials from './components/Testimonials';
+import CTA from './components/CTA';
+import Footer from './Footer';
 class App extends Component {
   render() {
     return (
@@ -34,6 +36,8 @@ class App extends Component {
       </Hero>
       <Features/>
       <Testimonials/>
+      <CTA/>
+      <Footer/>
       </>
 
     );
