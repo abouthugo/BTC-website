@@ -1,13 +1,13 @@
 {
   "main.css": "/BTC-website/static/css/main.6ab11b85.chunk.css",
-  "main.js": "/BTC-website/static/js/main.d4d61428.chunk.js",
-  "main.js.map": "/BTC-website/static/js/main.d4d61428.chunk.js.map",
+  "main.js": "/BTC-website/static/js/main.68b7cda5.chunk.js",
+  "main.js.map": "/BTC-website/static/js/main.68b7cda5.chunk.js.map",
   "runtime~main.js": "/BTC-website/static/js/runtime~main.cbe76e4b.js",
   "runtime~main.js.map": "/BTC-website/static/js/runtime~main.cbe76e4b.js.map",
   "static/js/2.fdfdd0df.chunk.js": "/BTC-website/static/js/2.fdfdd0df.chunk.js",
   "static/js/2.fdfdd0df.chunk.js.map": "/BTC-website/static/js/2.fdfdd0df.chunk.js.map",
   "index.html": "/BTC-website/index.html",
-  "precache-manifest.dca25deffb35ae3cd3250fd5bb95ed5a.js": "/BTC-website/precache-manifest.dca25deffb35ae3cd3250fd5bb95ed5a.js",
+  "precache-manifest.b4de0edbf0c3d2d86ccaa09e7fbcdc7d.js": "/BTC-website/precache-manifest.b4de0edbf0c3d2d86ccaa09e7fbcdc7d.js",
   "service-worker.js": "/BTC-website/service-worker.js",
   "static/css/main.6ab11b85.chunk.css.map": "/BTC-website/static/css/main.6ab11b85.chunk.css.map"
 }
