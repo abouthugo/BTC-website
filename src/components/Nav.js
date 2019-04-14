@@ -13,7 +13,7 @@ const Nav = styled.nav`
 
 export default () => (
   <Nav>
-    <a href="#">Changelly</a>
-    <a href="#">Sign in <SlickArrow/> </a>
+    <a href="/">Changelly</a>
+    <a href="/">Sign in <SlickArrow/> </a>
   </Nav>
 )

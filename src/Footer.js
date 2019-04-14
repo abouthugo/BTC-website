@@ -19,8 +19,8 @@ export default () => (
     <Foot>
       © 2018 - All rights reserved
       <span>
-      <a href="#">Terms of use</a>
-      <a>Privacy Policy</a>
+      <a href="/">Terms of use</a>
+      <a href="/">Privacy Policy</a>
       </span>
     </Foot>
   </Layout>

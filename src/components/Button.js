@@ -11,7 +11,11 @@ const Button = styled.button`
   letter-spacing: 0.8px;
   color: ${props => props.theme.main};
   font-weight: bold;
-  width: ${props => props.width}
+  width: ${props => props.width};
+  cursor: pointer;
+  &:focus{
+    outline: none;
+  }
 `
 Button.defaultProps = {
   theme: {
